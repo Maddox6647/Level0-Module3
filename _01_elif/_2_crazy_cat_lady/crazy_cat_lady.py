@@ -18,5 +18,8 @@ if __name__ == '__main__':
     #         play_video function below to show them a cat video
     #      6) If they have 0 cats, show them a video of A Frog Sitting on a
     #         Bench Like a Human
+    window = Tk()
+    window.withdraw()
+    cat_donkey = simpledialog.askstring(title='djjhs', prompt='how many cats do u have?')
 
     pass
