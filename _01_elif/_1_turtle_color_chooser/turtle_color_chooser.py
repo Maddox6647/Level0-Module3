@@ -24,9 +24,9 @@ if __name__ == '__main__':
         if turtles_awesome_colors == 'red':
             bobby1545.pencolor('red')
             bobby1545.fillcolor('red')
-        elif turtles_awesome_colors == 'green':
-            bobby1545.pencolor('green')
-            bobby1545.fillcolor('green')
+        elif turtles_awesome_colors == 'lavender':
+            bobby1545.pencolor('lavender')
+            bobby1545.fillcolor('lavender')
         elif turtles_awesome_colors == 'blue':
             bobby1545.pencolor('blue')
             bobby1545.fillcolor('blue')

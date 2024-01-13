@@ -20,6 +20,13 @@ if __name__ == '__main__':
     #         Bench Like a Human
     window = Tk()
     window.withdraw()
-    cat_donkey = simpledialog.askstring(title='djjhs', prompt='how many cats do u have?')
+    cat = simpledialog.askinteger(title='djjhs', prompt='how many cats do u have?')
+    if cat == 3:
+        messagebox.showinfo(title='dhgjjsjhssdjssd', message='U R A CRAZY CAT LADY!!! lol')
+    elif cat == 2:
+        play_video("https://www.youtube.com/watch?v=pqaKXvPm0Mk")
+    elif cat == 1:
+        play_video("https://www.youtube.com/watch?v=JIjV73k3AxM")
+    elif cat == 0:
+        play_video("https://www.youtube.com/watch?v=oj_yLBltPE8")
 
-    pass
