@@ -1,5 +1,5 @@
 from tkinter import simpledialog, Tk
-#from playsound import playsound
+from playsound import playsound
 
 can_play_sounds = False
 
@@ -17,8 +17,10 @@ def many_shiny_objects():
     # TODO 2) Ask the user how many shiny objects they want
     shiny = simpledialog.askinteger(title='k', prompt='how many shiny objects would you like???????????????????????????')
     # TODO 3) Play the sound that many times
-    can_play_sounds = shiny
-    pass
+    for i in range(shiny):
+        playsound('shiny-objects.wav')
+
+pass
 
 
 if __name__ == '__main__':

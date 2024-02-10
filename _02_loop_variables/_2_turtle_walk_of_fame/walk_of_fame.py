@@ -7,8 +7,41 @@ if __name__ == '__main__':
     my_turtle.speed(100)
 
     # TODO 1) Set the X position of the turtle so that it starts on the left.
-
+    my_turtle.goto(-400, 0)
     # TODO 2) Make the turtle draw a star shape. Hint: angle=144.
+
+    for i in range(5):
+        my_turtle.forward(78)
+        my_turtle.right(144)
+
+    my_turtle.forward(78)
+    for i in range(5):
+        my_turtle.forward(78)
+        my_turtle.right(144)
+
+    my_turtle.forward(78)
+    for i in range(5):
+        my_turtle.forward(78)
+        my_turtle.right(144)
+
+    my_turtle.forward(78)
+    for i in range(5):
+        my_turtle.forward(78)
+        my_turtle.right(144)
+
+    my_turtle.forward(78)
+    for i in range(5):
+        my_turtle.forward(78)
+        my_turtle.right(144)
+
+    my_turtle.forward(78)
+    for i in range(5):
+        my_turtle.forward(78)
+        my_turtle.right(144)
+
+    my_turtle.forward(78)
+
+
 
     # TODO 3) Set the length of each line in the star to 30
 
