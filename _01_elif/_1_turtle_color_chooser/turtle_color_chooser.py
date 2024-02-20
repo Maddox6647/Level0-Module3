@@ -15,7 +15,7 @@ def get_random_color():
 if __name__ == '__main__':
     window = turtle.Screen()
     window.bgcolor('white')
-# TODO 3) say hello to Mr. Charlie
+# TODO 3) Say hello to Mr. Charlie
     # TODO 1) Create a new Turtle
     #      2) Make the turtle draw a shape (this will take more than one line
     #         of code)
